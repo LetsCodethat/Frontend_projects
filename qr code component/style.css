@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap');
+*{
+    background-image: url(ikhlas-r-mcxRGp6u3II-unsplash.jpg);
+    background-position: center;
+    background-size: auto;
+    z-index: 0.2;
+    background-blend-mode: overlay;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin: 150px 100px;
+}
+.container{
+    display: flex;
+    height: 700px;
+    width: 900px;
+    background-color:#FFD7C4;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px 10px;
+    justify-content: center;
+    align-content: center;
+
+}
+.inner{
+    height: 450px;
+    width: 300px;
+    background-color:#FF9874 ;
+    margin: 135px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #FFD7C4;
+}
+img{
+    height: 220px;
+    width: 220px;
+    margin: 30px 40px;
+    border-radius: 10px;
+
+}
+h1{
+    text-align: center;
+    background-color: #FFD7C4;
+    z-index: 1;
+    position: relative;
+    top: -30px;
+    /* border-radius: 10px; */
+    opacity: .9;
+    font-family: "Merriweather", serif;
+    font-weight:800;
+    font-style: italic;
+    box-shadow: 10px 10px 40px #FFD7C4; 
+}
+p{
+    text-align: center;
+    position: relative;
+    top: -40px;
+    background-color:#FF9874 ;
+    padding: 20px;
+}
