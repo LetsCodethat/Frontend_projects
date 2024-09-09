@@ -61,7 +61,7 @@ box-shadow:  -21px -21px 42px #5154c9,
 
 .score .number{
     margin-top: 37px;
-
+    opacity: .9;
 }
 
 
@@ -73,6 +73,7 @@ box-shadow:  -21px -21px 42px #5154c9,
 .description {
     font-size: 16px;
     margin-top: 10px;
+    opacity: .8;
 }
 
 .summary-section {
@@ -102,11 +103,11 @@ box-shadow:  -21px -21px 42px #5154c9,
 }
 
 .summary-section .label {
-    color: #888;
+    color: #0000008e;
 }
 
 .summary-section .score-value {
-    color: #333;
+    color: #333333d7;
 }
 
 .continue-btn {
@@ -122,4 +123,18 @@ box-shadow:  -21px -21px 42px #5154c9,
 
 .continue-btn:hover {
     background-color: #155bb5;
+}
+
+.first{
+    background-color: #5f64ec34;
+    border-radius: 20px;
+    /* padding-bottom: 20px; */
+    margin-bottom: 4px;
+}
+.first span{
+    margin: 0 20px;
+    
+}
+.score-value{
+    color: white;
 }
