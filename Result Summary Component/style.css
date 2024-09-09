@@ -39,6 +39,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 
 .result-section h2 {
@@ -47,10 +48,22 @@ body {
 }
 
 .score {
+    height: 150px;
+    width: 150px;
     font-size: 64px;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 10px 0;
+    border-radius: 150px;
+background: #5f63ec;
+box-shadow:  -21px -21px 42px #5154c9,
+             21px 21px 42px #6d72ff;
 }
+
+.score .number{
+    margin-top: 37px;
+
+}
+
 
 .status {
     font-size: 24px;
